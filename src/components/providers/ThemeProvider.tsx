@@ -11,7 +11,8 @@ export default function ThemeProvider({
     <NextThemesProvider
       attribute="class"
       defaultTheme="dark"
-      enableSystem
+      enableSystem={false}
+      enableColorScheme
     >
       {children}
     </NextThemesProvider>

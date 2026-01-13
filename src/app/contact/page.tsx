@@ -1,13 +1,13 @@
 export default function ContactPage() {
   return (
     <section className="mx-auto max-w-4xl px-6 py-20">
-      <h1 className="mb-4 text-3xl font-bold text-foreground">
+      <h1 className="mb-6 text-3xl font-bold text-foreground">
         Contact
       </h1>
 
-      <p className="mb-6 text-neutral-600 dark:text-neutral-400">
-        Feel free to reach out if you want to discuss projects, opportunities
-        or just say hello.
+      <p className="mb-8 text-neutral-600 dark:text-neutral-400">
+        If you want to get in touch to discuss projects, opportunities or
+        collaborations, feel free to reach out.
       </p>
 
       <a
